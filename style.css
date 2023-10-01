@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit; /*унаследовать от родителя в этом случае body*/
+}
+
+nav {
+    margin: 20px;
+}
+
+nav a {
+    padding: 15px;
+}
+
+header {
+    background: #000016;
+    padding: 30px calc(50% - 600px);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: Impact, fantasy;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    background-image: url(img/bg.jpg);
+    color: #fff;
+    padding: 100px calc(50% - 600px);
+    background-position: bottom;
+    background-size: cover;
+    height: calc(100vh - 454px);
+}
+h1 {
+    width: 500px;
+}
+.banner p {
+    width: 500px;
+}
+
+.info {
+    background: #000016;
+    padding: 30px calc(50% - 600px);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 8px;
+    width: 25%;
+}
+
+img {
+    height: 40px;
+}
